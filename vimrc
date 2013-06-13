@@ -53,9 +53,9 @@ if exists(':Bundle')
     Bundle 'tpope/vim-fugitive.git'
     Bundle 'tpope/vim-rails.git'
     Bundle 'ervandew/supertab.git'
-    Bundle 'msanders/snipmate.vim.git'
+    Bundle 'garbase/snipmate.vim.git'
     Bundle 'scrooloose/syntastic.git'
-    Bundle 'joonty/vim-tork.git'
+"    Bundle 'joonty/vim-tork.git'
 end
 "}}}
 
@@ -445,3 +445,7 @@ let g:syntastic_mode_map = { 'mode': 'active',
 let NERDTreeIgnore = ['\.pyc$','\.sock$']
 
 let g:vdebug_features = {'max_depth':3}
+
+set exrc
+
+set secure

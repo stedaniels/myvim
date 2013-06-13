@@ -21,15 +21,15 @@ set hlsearch
 set incsearch " ...dynamically as they are typed.
 set listchars=tab:>-,trail:·,eol:$
 " Folds
-set foldmethod=marker
+" set foldmethod=marker
 set wildmenu
 set wildmode=list:longest,full
-set mouse=a
+" set mouse=a
 set nohidden
 set shortmess+=filmnrxoOt
 set viewoptions=folds,options,cursor,unix,slash
 set virtualedit=onemore
-set shell=zsh\ --login
+" set shell=zsh\ --login
 
 "Spaces, not tabs
 set shiftwidth=4
