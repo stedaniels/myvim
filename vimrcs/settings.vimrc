@@ -40,4 +40,8 @@ set expandtab
 set nocursorcolumn
 set nocursorline
 syntax sync minlines=256
+
+" Turn off html highlighting a bold italics etc
+let html_no_rendering=1
+
 "}}}
