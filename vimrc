@@ -449,6 +449,17 @@ let NERDTreeIgnore = ['\.pyc$','\.sock$']
 
 let g:vdebug_features = {'max_depth':3}
 
+" tab navigation
+nnoremap <C-U>     :tabprevious<CR>
+nnoremap <C-I>     :tabnext<CR>
+nnoremap <C-T>     :tabnew<CR>
+inoremap <C-U>     <Esc>:tabprevious<CR>i
+inoremap <C-I>     <Esc>:tabnext<CR>i
+inoremap <C-T>     <Esc>:tabnew<CR>
+
+" window navigation using jk
+
+
 set exrc
 
 set secure
