@@ -449,7 +449,7 @@ let NERDTreeIgnore = ['\.pyc$','\.sock$']
 
 let g:vdebug_features = {'max_depth':3}
 
-" tab navigation
+" tab navigation t u i
 nnoremap <C-U>     :tabprevious<CR>
 nnoremap <C-I>     :tabnext<CR>
 nnoremap <C-T>     :tabnew<CR>
@@ -458,7 +458,10 @@ inoremap <C-I>     <Esc>:tabnext<CR>i
 inoremap <C-T>     <Esc>:tabnew<CR>
 
 " window navigation using jk
-
+map <C-H> <C-W>h<C-W>
+map <C-J> <C-W>j<C-W>
+map <C-K> <C-W>k<C-W>
+map <C-L> <C-W>l<C-W>
 
 set exrc
 
