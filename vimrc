@@ -53,9 +53,12 @@ if exists(':Bundle')
     Bundle 'tpope/vim-fugitive.git'
     Bundle 'tpope/vim-rails.git'
     Bundle 'ervandew/supertab.git'
-    Bundle 'garbase/snipmate.vim.git'
+    Bundle 'MarcWeber/vim-addon-mw-utils'
+    Bundle 'tomtom/tlib_vim'
+    Bundle 'garbas/vim-snipmate'
     Bundle 'scrooloose/syntastic.git'
 "    Bundle 'joonty/vim-tork.git'
+    Bundle 'bling/vim-airline'
 end
 "}}}
 
